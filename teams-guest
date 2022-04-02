@@ -1,0 +1,6 @@
+#!/bin/bash
+BROWSER="chromium"
+
+url=$(echo "$1" | sed 's#msteams:#https://teams.microsoft.com/#')
+
+exec $BROWSER --incognito "$url"

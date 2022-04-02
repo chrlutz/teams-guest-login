@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=Teams-Guest-Login
+Comment=Teams Guest Login via incognito browser
+Exec=teams-guest %u
+StartupNotify=false
+MimeType=x-scheme-handler/msteams;
