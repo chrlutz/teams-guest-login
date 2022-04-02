@@ -1,11 +1,10 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: teams-guest-login
-Upstream-Contact: <preferred name and address to reach the upstream project>
-Source: <url://example.com>
+Upstream-Contact: Christoph Lutz <chrlutz@gmail.com>
+Source: https://github.com/chrlutz/teams-guest-login
 
 Files: *
-Copyright: <years> <put author's name and email here>
-           <years> <likewise for another author>
+Copyright: 2022 Christoph Lutz <chrlutz@gmail.com>
 License: MIT
 
 Files: debian/*

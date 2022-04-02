@@ -1,6 +1,14 @@
 The Debian Package teams-guest-login
 ----------------------------
 
-Comments regarding the Package
+Once an authorized microsoft user logged in to microsoft services
+from your computer/account, microsoft makes it really hard to
+join a Teams-Meeting just via guest login. In this case microsoft
+typically asks for login credentials which could be very annoying
+if one just want to join annonymously.
+
+To ensure we are logged in via guest login, the teams link has to
+be opened in an incognito browser - and this is what this tiny
+wrapper (and handler for "msteams:" urls) does.
 
  -- Christoph Lutz <chrlutz@gmail.com>  Sat, 02 Apr 2022 21:59:09 +0200
